@@ -1,10 +1,7 @@
 
 package betybatik.entity;
-
-
 public class EntityService {
 
-    
     public int diskon(int diskon,int harga){
            int total1 = (harga - ((harga*diskon)/100));
            return  (int)total1;

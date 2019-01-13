@@ -209,7 +209,8 @@ public class Login extends javax.swing.JFrame {
             Connection c = conn_service.configDB();
             Statement s = c.createStatement();
             if (rbAdmin.isSelected()){    
-            String sql = "SELECT * FROM admin_login where username='"+txtUser.getText() + "' and password='"+ txtPass.getText() +"'";//Fungsi untuk memeriksa apakah user dengan password sama di database
+            String sql = "SELECT * FROM admin_login where username='"+txtUser.getText() + 
+                    "' and password='"+ txtPass.getText() +"'";//Fungsi untuk memeriksa apakah user dengan password sama di database
             
             ResultSet r = s.executeQuery(sql);
             

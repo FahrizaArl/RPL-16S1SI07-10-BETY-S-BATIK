@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 
 public class FrmKasirDaftarMember extends javax.swing.JFrame {
 
-               int i = 6;//Inisialisasi secara Global batas karakter ID Member sepanjang 6 karakter
+               int i = 6;                              //Inisialisasi secara Global batas karakter ID Member sepanjang 6 karakter
               App_Engine ae = new App_Engine();
     public FrmKasirDaftarMember() {
         initComponents();

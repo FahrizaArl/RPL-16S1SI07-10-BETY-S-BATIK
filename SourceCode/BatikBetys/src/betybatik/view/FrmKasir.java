@@ -242,6 +242,12 @@ public class FrmKasir extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Fitur Transaksi diatas 10 Juta"));
 
+        txtDiscount.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtDiscountActionPerformed(evt);
+            }
+        });
+
         jLabel6.setText("Discount");
 
         jLabel12.setText("Subtotal");
@@ -494,6 +500,10 @@ public class FrmKasir extends javax.swing.JFrame {
         {evt.consume();}
        
     }//GEN-LAST:event_txtKembaliKeyTyped
+
+    private void txtDiscountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDiscountActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDiscountActionPerformed
    public void removeSelectedRows(JTable table){
    DefaultTableModel model = (DefaultTableModel) this.tblYgDibeli.getModel();
    int[] rows = table.getSelectedRows();
